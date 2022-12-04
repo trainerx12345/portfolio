@@ -1,0 +1,117 @@
+#planetary {
+  height: 400px;
+
+  --ring-color: var(--color-style4);
+  --planet0: #F1FAEE;
+  --shade: rgba(230, 57, 70, 0.6);
+  --planet1: #A8DADC;
+  --planet2: #457B9D;
+  --planet3: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E6AF2E 26.56%, rgba(255, 255, 255, 0) 100%), #632B30;
+  /* #E63B2E;*/
+
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+}
+
+#planetary:hover>.circle {
+  transform: scale(1.1);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+#planetary>.circle {
+  cursor: pointer;
+  --size: 80px;
+  width: var(--size);
+  height: var(--size);
+
+  background: var(--planet0);
+
+  box-shadow: 0 0 100px var(--shade);
+  transition: transform var(--transition-style);
+  animation: breathe 7s alternate infinite;
+}
+
+#planetary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#planetary-container>.ring {
+  position: absolute;
+
+  --size: 0;
+  width: var(--size);
+  height: var(--size);
+  border-radius: calc(var(--size) / 2);
+  border: 1px solid var(--ring-color);
+
+  --planet-color: var(--planet1);
+  --planet-size: 13px;
+  --radial-speed: 0;
+  --revolution: 10s;
+
+  transition: 0.5s ease;
+  transition-property: width, height, animation-duration;
+  animation: spin var(--revolution) linear infinite;
+}
+
+.ring>.circle {
+  position: absolute;
+  /*-1px is required to compensate for the border width*/
+  --half-size: calc(var(--planet-size) / -2 - 1px);
+  top: calc(50% + var(--half-size));
+  left: var(--half-size);
+
+  width: var(--planet-size);
+  height: var(--planet-size);
+  background: var(--planet-color);
+  /*animation: spin 15s linear infinite;*/
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes breathe {
+  100% {
+    box-shadow: 0 0 30px var(--shade);
+  }
+}
+
+@-webkit-keyframes breathe {
+  100% {
+    box-shadow: 0 0 30px var(--shade);
+  }
+}
+
+@keyframes breathe {
+  100% {
+    box-shadow: 0 0 30px var(--shade);
+  }
+}
