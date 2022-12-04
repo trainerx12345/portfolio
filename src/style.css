@@ -39,7 +39,9 @@
   min-height: 100vh;
 }
 
-
+.skill-img {
+  width: 100%;
+}
 
 .swiper {
   width: 100%;

@@ -12,41 +12,43 @@ import {
 export default function Hero() {
 	return (
 		<div id='home'>
-			<div className=' container-fluid min-vh-100 bg-dark text-light d-flex flex-column  align-items-center justify-content-center'>
+			<div className=' container-fluid min-vh-100 bg-grey d-flex flex-column  align-items-center justify-content-center'>
 				<Nav />
 				<div className='d-flex align-items-center justify-content-center '>
 					<div className='d-flex flex-column  container-fluid p-5 mt-5 justify-content-around'>
-						<h1>Hi I'm Samuel Corpuz</h1>
-						<h2>
+						<h1 className='display-5 font-weight-bolder pb-4'>
+							Hi I'm Samuel Corpuz
+						</h1>
+						<h5>
 							<Typewriter
 								options={{
 									strings: [
 										'I am a Full Stack Developer',
 										'I am a Computer Technician',
 										'I am a Data Analyst',
-										'I am a Network Administrator',
+										'I am a Network Assistant',
 										'I am a Software Developer',
 									],
 									autoStart: true,
 									loop: true,
 								}}
 							/>
-						</h2>
-						<div className='row mt-5'>
+						</h5>
+						<div className='row mt-5 ml-0 pl-0'>
 							<div className='col-5'>
 								<a
 									href='#project'
-									className='text-light text-decoration-none text-center'
+									className=' text-decoration-none'
 								>
-									<h3>View Projects</h3>
+									<h3>PROJECTS</h3>
 								</a>
 							</div>
-							<div className='col-5 text-light'>
+							<div className='col-5'>
 								<a
 									href='https://drive.google.com/file/d/13P6IlBCixvXtZKD9fGMzPyaT0HBrFyYN/view?usp=sharing'
-									className='text-light text-decoration-none text-center'
+									className='text-decoration-none'
 								>
-									<h3>Resume</h3>
+									<h3>RESUME</h3>
 								</a>
 							</div>
 						</div>
@@ -56,42 +58,60 @@ export default function Hero() {
 								<li className='mr-4'>
 									<a href='https://twitter.com/samuelcorpuz15'>
 										<h5>
-											<FaTwitter size={40} />
+											<FaTwitter
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
 								<li className='mr-4'>
 									<a href='https://www.facebook.com/Dormmammu31/'>
 										<h5>
-											<FaFacebook size={40} />
+											<FaFacebook
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
 								<li className='mr-4'>
 									<a href='https://www.instagram.com/saamcorpuz/'>
 										<h5>
-											<FaInstagram size={40} />
+											<FaInstagram
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
 								<li className='mr-4'>
 									<a href='https://github.com/trainerx12345'>
 										<h5>
-											<FaGithub size={40} />
+											<FaGithub
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
 								<li className='mr-4'>
 									<a href='https://gitlab.com/trainerx123'>
 										<h5>
-											<FaGitlab size={40} />
+											<FaGitlab
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
 								<li className='mr-4'>
 									<a href='https://www.linkedin.com/in/samuel-corpuz-09b150170/'>
 										<h5>
-											<FaLinkedin size={40} />
+											<FaLinkedin
+												size={40}
+												color='black'
+											/>
 										</h5>
 									</a>
 								</li>
