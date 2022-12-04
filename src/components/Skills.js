@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -17,8 +16,13 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 
 export default function Skills() {
 	return (
-		<div id='skill'>
-			<h1 className='display-3 p-5 text-center font-weight-bolder'>Skills</h1>
+		<div
+			id='skill'
+			className='mt-5 container-fluid mb-5 mt-lg-5 mb-lg-5'
+		>
+			<h1 className='display-3 pt-5  mt-5 text-center font-weight-bolder'>
+				Skills
+			</h1>
 			<Swiper
 				spaceBetween={30}
 				centeredSlides={true}

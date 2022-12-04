@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 import Hero from './components/Hero';
 import Skill from './components/Skills';
 import Project from './components/Project';
@@ -11,7 +11,7 @@ function App() {
 			<Skill />
 			<Project />
 			<Contact />
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }

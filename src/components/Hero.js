@@ -11,7 +11,10 @@ import {
 } from 'react-icons/fa';
 export default function Hero() {
 	return (
-		<div id='home'>
+		<div
+			id='home'
+			className='p-5'
+		>
 			<div className=' container-fluid min-vh-100 bg-grey d-flex flex-column  align-items-center justify-content-center'>
 				<Nav />
 				<div className='d-flex align-items-center justify-content-center '>
