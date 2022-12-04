@@ -18,11 +18,9 @@ export default function Skills() {
 	return (
 		<div
 			id='skill'
-			className='mt-5 container-fluid mb-5 mt-lg-5 mb-lg-5'
+			className='p-5 mx-auto container-fluid mb-5 mt-lg-5 mb-lg-5'
 		>
-			<h1 className='display-3 pt-5  mt-5 text-center font-weight-bolder'>
-				Skills
-			</h1>
+			<h1 className='display-3 pt-5  mt-5 text-center '>Skills</h1>
 			<Swiper
 				spaceBetween={30}
 				centeredSlides={true}
@@ -35,7 +33,7 @@ export default function Skills() {
 				}}
 				navigation={true}
 				modules={[Autoplay, Pagination, Navigation]}
-				className='mySwiper'
+				className='mySwiper p-5 mx-auto'
 			>
 				<SwiperSlide>
 					<h2>Desktop and Mobile Developer</h2>
