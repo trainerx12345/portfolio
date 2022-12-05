@@ -94,8 +94,9 @@ export default function Project() {
 							// credit="Photo by [@tavi004](https://unsplash.com/@tavi004)"
 						>
 							<div>
-							<h5>
-									This is an application created from static React website. It a simple e-commerce for cake apps.
+								<h5>
+									This is an application created from static React website. It a
+									simple e-commerce for cake apps.
 								</h5>
 								<UrlButton href='https://sweetspot-89rynxxed-trainerx12345.vercel.app/'>
 									<FaEye size={20} /> Click here to view the page
@@ -119,8 +120,9 @@ export default function Project() {
 							// credit="Photo by [@tavi004](https://unsplash.com/@tavi004)"
 						>
 							<div>
-							<h5>
-									This is an application for created on Vanilla Javascript. It is based on the game of Gabriele Cirulli 2048.
+								<h5>
+									This is an application for created on Vanilla Javascript. It
+									is based on the game of Gabriele Cirulli 2048.
 								</h5>
 								<UrlButton href='https://trainerx12345.github.io/2048'>
 									<FaEye size={20} /> Click here to play the game
@@ -146,8 +148,9 @@ export default function Project() {
 							// credit="Photo by [@tavi004](https://unsplash.com/@tavi004)"
 						>
 							<div>
-							<h5>
-									This is made from static HTML CSS upon studying for 1 month in Uplift Code Camp. I learn new things and develop.
+								<h5>
+									This is made from static HTML CSS upon studying for 1 month in
+									Uplift Code Camp. I learn new things and develop.
 								</h5>
 								<UrlButton href='https://trainerx12345.github.io/sam/'>
 									<FaEye size={20} /> Click to view the page
@@ -172,8 +175,9 @@ export default function Project() {
 							// credit="Photo by [@tavi004](https://unsplash.com/@tavi004)"
 						>
 							<div>
-							<h5>
-								A portfolio created based on my learning from college. It just a plain HTML CSS for the design and creattion of this project.
+								<h5>
+									A portfolio created based on my learning from college. It just
+									a plain HTML CSS for the design and creattion of this project.
 								</h5>
 								<UrlButton href='https://trainerx12345.github.io/portfoliov0.1/'>
 									<FaEye size={20} />
