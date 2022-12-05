@@ -12,7 +12,7 @@ import Technician from '../assets/technician.jpg';
 import Developer from '../assets/developer.jpg';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper';
+import { Autoplay, Pagination, Navigation, Parallax } from 'swiper';
 
 export default function Skills() {
 	return (
@@ -32,8 +32,9 @@ export default function Skills() {
 					clickable: true,
 				}}
 				navigation={true}
-				modules={[Autoplay, Pagination, Navigation]}
+				modules={[Parallax, Autoplay, Pagination, Navigation]}
 				className='mySwiper p-5 mx-auto'
+				parallax={true}
 			>
 				<SwiperSlide>
 					<h2>Desktop and Mobile Developer</h2>
@@ -44,7 +45,22 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h2>Full stack developer</h2>
+					<div
+						className='title'
+						data-swiper-parallax='-300'
+					>
+						Full stack developer
+					</div>
+					<div
+						className='text'
+						data-swiper-parallax='-100'
+					>
+						<p>
+							As full stack developer. I create and manage the deployed website
+							together its backend and database. This can be react, express,
+							mongodb, node.js.
+						</p>
+					</div>
 					<img
 						src={Developer}
 						className='skill-img'
@@ -52,7 +68,22 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h2>Database management and Design</h2>
+					<div
+						className='title'
+						data-swiper-parallax='-300'
+					>
+						Database management and Design
+					</div>
+					<div
+						className='text'
+						data-swiper-parallax='-100'
+					>
+						<p>
+							As a database management and design. I maintain the Database
+							schema and design within the company. Checking all the database
+							and integrity of its data within the database.
+						</p>
+					</div>
 					<img
 						src={Data}
 						className='skill-img'
@@ -60,7 +91,23 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h2>Software and Hardware Technician</h2>
+					<div
+						className='title'
+						data-swiper-parallax='-300'
+					>
+						Software and Hardware Technician
+					</div>
+					<div
+						className='text'
+						data-swiper-parallax='-100'
+					>
+						<p>
+							As a software and hardware technician, I maintain and always check
+							the hardware being used by the company. The goal of a software
+							technician is to consistency checking of all software and hardware
+							if ever its working or not.
+						</p>
+					</div>
 					<img
 						src={Technician}
 						className='skill-img'
@@ -68,7 +115,22 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<h2>Network Management and Maintenance</h2>
+					<div
+						className='title'
+						data-swiper-parallax='-300'
+					>
+						Network Management and Maintenance
+					</div>
+					<div
+						className='text'
+						data-swiper-parallax='-100'
+					>
+						<p>
+							As a network management and maintenance. I supervise and maintain
+							the Ethernet connection and the structure of all design whether
+							wireless or wired connection.
+						</p>
+					</div>
 					<img
 						src={Network}
 						className='skill-img'

@@ -59,16 +59,6 @@ export default function Hero() {
 						<div className='row mt-5'>
 							<ul className='d-flex align-items-center justify-content-start list-unstyled'>
 								<li className='mr-4'>
-									<a href='https://twitter.com/samuelcorpuz15'>
-										<h5>
-											<FaTwitter
-												size={40}
-												color='black'
-											/>
-										</h5>
-									</a>
-								</li>
-								<li className='mr-4'>
 									<a href='https://www.facebook.com/Dormmammu31/'>
 										<h5>
 											<FaFacebook
