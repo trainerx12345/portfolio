@@ -22,12 +22,12 @@ export default function Hero() {
 						<h1 className='display-5 font-weight-bolder pb-4'>
 							Hi I'm Samuel Corpuz
 						</h1>
-						<h2>
+						<h3>
 							I am a graduate of Bachelor in Science in Computer. I reside in
 							Baguio City, Benguet Philippines 2600. I have 2 years experience
 							in Software, Hardware and Network Management
-						</h2>
-						<h5>
+						</h3>
+						<h5 className='p-3 primary'>
 							<Typewriter
 								options={{
 									strings: [
