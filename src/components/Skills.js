@@ -37,7 +37,7 @@ export default function Skills() {
 				parallax={true}
 			>
 				<SwiperSlide>
-					<div className='d-flex flex-column'>
+					<div className='d-flex flex-column p-2'>
 						<h2>Desktop and Mobile Developer</h2>
 						<p>
 							As a desktop and mobile developer. I create and manage the
@@ -52,7 +52,7 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='d-flex flex-column'>
+					<div className='d-flex flex-column p-2'>
 						<h2>Full stack web developer</h2>
 						<p>
 							As full stack web developer. I create and manage the deployed
@@ -67,7 +67,7 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='d-flex flex-column'>
+					<div className='d-flex flex-column p-2'>
 						<h2>Database management and Design</h2>
 						<p>
 							As a database management and design. I maintain the Database
@@ -82,7 +82,7 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='d-flex flex-column'>
+					<div className='d-flex flex-column p-2'>
 						<h2>Software and Hardware Technician</h2>
 
 						<p>
@@ -99,7 +99,7 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className='d-flex flex-column'>
+					<div className='d-flex flex-column p-2'>
 						<h2>Network Management and Maintenance</h2>
 						<p>
 							As a network management and maintenance. I supervise and maintain
