@@ -27,7 +27,7 @@ export default function Hero() {
 							Baguio City, Benguet Philippines 2600. I have 2 years experience
 							in Software, Hardware and Network Management
 						</h3>
-						<h5 className='p-3 primary'>
+						<h5 className='mt-4 text-primary'>
 							<Typewriter
 								options={{
 									strings: [

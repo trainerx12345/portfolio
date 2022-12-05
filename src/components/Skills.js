@@ -18,7 +18,7 @@ export default function Skills() {
 	return (
 		<div
 			id='skill'
-			className='mx-auto container-fluid p-5'
+			className='mx-auto container-fluid p-3'
 		>
 			<h1 className='display-3 pt-5  mt-5 text-center '>Skills</h1>
 			<Swiper
