@@ -18,7 +18,7 @@ export default function Skills() {
 	return (
 		<div
 			id='skill'
-			className='p-5 mx-auto container-fluid mb-5 mt-lg-5 mb-lg-5'
+			className='mx-auto container-fluid mb-5 mt-lg-5 mb-lg-5'
 		>
 			<h1 className='display-3 pt-5  mt-5 text-center '>Skills</h1>
 			<Swiper
@@ -33,11 +33,18 @@ export default function Skills() {
 				}}
 				navigation={true}
 				modules={[Parallax, Autoplay, Pagination, Navigation]}
-				className='mySwiper p-5 mx-auto'
+				className='mySwiper mx-auto'
 				parallax={true}
 			>
 				<SwiperSlide>
-					<h2>Desktop and Mobile Developer</h2>
+					<div className='d-flex flex-column'>
+						<h2>Desktop and Mobile Developer</h2>
+						<p>
+							As a desktop and mobile developer. I create and manage the
+							deployed desktop and mobile application together its backend and
+							database. This can be react, express, mongodb, node.js.
+						</p>
+					</div>
 					<img
 						src={Software}
 						className='skill-img'
@@ -45,20 +52,12 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div
-						className='title'
-						data-swiper-parallax='-300'
-					>
-						Full stack developer
-					</div>
-					<div
-						className='text'
-						data-swiper-parallax='-100'
-					>
+					<div className='d-flex flex-column'>
+						<h2>Full stack web developer</h2>
 						<p>
-							As full stack developer. I create and manage the deployed website
-							together its backend and database. This can be react, express,
-							mongodb, node.js.
+							As full stack web developer. I create and manage the deployed
+							website together its backend and database. This can be react,
+							express, mongodb, node.js.
 						</p>
 					</div>
 					<img
@@ -68,16 +67,8 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div
-						className='title'
-						data-swiper-parallax='-300'
-					>
-						Database management and Design
-					</div>
-					<div
-						className='text'
-						data-swiper-parallax='-100'
-					>
+					<div className='d-flex flex-column'>
+						<h2>Database management and Design</h2>
 						<p>
 							As a database management and design. I maintain the Database
 							schema and design within the company. Checking all the database
@@ -91,16 +82,9 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div
-						className='title'
-						data-swiper-parallax='-300'
-					>
-						Software and Hardware Technician
-					</div>
-					<div
-						className='text'
-						data-swiper-parallax='-100'
-					>
+					<div className='d-flex flex-column'>
+						<h2>Software and Hardware Technician</h2>
+
 						<p>
 							As a software and hardware technician, I maintain and always check
 							the hardware being used by the company. The goal of a software
@@ -115,16 +99,8 @@ export default function Skills() {
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div
-						className='title'
-						data-swiper-parallax='-300'
-					>
-						Network Management and Maintenance
-					</div>
-					<div
-						className='text'
-						data-swiper-parallax='-100'
-					>
+					<div className='d-flex flex-column'>
+						<h2>Network Management and Maintenance</h2>
 						<p>
 							As a network management and maintenance. I supervise and maintain
 							the Ethernet connection and the structure of all design whether
