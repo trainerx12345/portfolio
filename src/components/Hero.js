@@ -63,7 +63,7 @@ export default function Hero() {
 
 						<div className='row mt-5'>
 							<ul className='d-flex align-items-center justify-content-start list-unstyled'>
-								<li className='mr-4'>
+								<li className='mx-auto'>
 									<a href='https://www.facebook.com/Dormmammu31/'>
 										<h5>
 											<FaFacebook
@@ -73,7 +73,7 @@ export default function Hero() {
 										</h5>
 									</a>
 								</li>
-								<li className='mr-4'>
+								<li className='mx-auto'>
 									<a href='https://www.instagram.com/saamcorpuz/'>
 										<h5>
 											<FaInstagram
@@ -83,7 +83,7 @@ export default function Hero() {
 										</h5>
 									</a>
 								</li>
-								<li className='mr-4'>
+								<li className='mx-auto'>
 									<a href='https://github.com/trainerx12345'>
 										<h5>
 											<FaGithub
@@ -93,7 +93,7 @@ export default function Hero() {
 										</h5>
 									</a>
 								</li>
-								<li className='mr-4'>
+								<li className='mx-auto'>
 									<a href='https://gitlab.com/trainerx123'>
 										<h5>
 											<FaGitlab
@@ -103,7 +103,7 @@ export default function Hero() {
 										</h5>
 									</a>
 								</li>
-								<li className='mr-4'>
+								<li className='mx-auto'>
 									<a href='https://www.linkedin.com/in/samuel-corpuz-09b150170/'>
 										<h5>
 											<FaLinkedin
