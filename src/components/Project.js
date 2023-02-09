@@ -51,10 +51,16 @@ export default function Project() {
 									As a student it can generate certificate and verification of
 									the certificate.
 								</h5>
-								<UrlButton href='https://find-my-love.vercel.app/ ' target='_blank'>
+								<UrlButton
+									href='https://find-my-love.vercel.app/ '
+									target='_blank'
+								>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/EMS/tree/main' target='_blank'>
+								<UrlButton
+									href='https://github.com/trainerx12345/EMS/tree/main'
+									target='_blank'
+								>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -72,17 +78,23 @@ export default function Project() {
 									MERN stack application. In further development, a chat might
 									be implemented
 								</h5>
-								<UrlButton href='https://find-my-love.vercel.app/' target='_blank'>
+								<UrlButton
+									href='https://find-my-love.vercel.app/'
+									target='_blank'
+								>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/findMyLove' target='_blank'>
+								<UrlButton
+									href='https://github.com/trainerx12345/findMyLove'
+									target='_blank'
+								>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
 						</ImageEvent>
 
 						<TextEvent
-							date='10/202022'
+							date='10/20/2022'
 							text='Learn how to use _**MongoDb and Express**_'
 						/>
 
@@ -98,10 +110,16 @@ export default function Project() {
 									This is an application created from static React website. It a
 									simple e-commerce for cake apps.
 								</h5>
-								<UrlButton href='https://sweetspot-89rynxxed-trainerx12345.vercel.app/' target='_blank'>
+								<UrlButton
+									href='https://sweetspot-89rynxxed-trainerx12345.vercel.app/'
+									target='_blank'
+								>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/sweetspot' target='_blank'>
+								<UrlButton
+									href='https://github.com/trainerx12345/sweetspot'
+									target='_blank'
+								>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -124,22 +142,21 @@ export default function Project() {
 									This is an application for created on Vanilla Javascript. It
 									is based on the game of Gabriele Cirulli 2048.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/2048' target='_blank'>
+								<UrlButton
+									href='https://trainerx12345.github.io/2048'
+									target='_blank'
+								>
 									<FaEye size={20} /> Click here to play the game
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/2048' target='_blank'>
+								<UrlButton
+									href='https://github.com/trainerx12345/2048'
+									target='_blank'
+								>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
 						</ImageEvent>
-						<TextEvent
-							date='08/30'
-							text='Learn to how to use _**Javascript.**_'
-						/>
-						<TextEvent
-							date='08/30'
-							text='Learn to how to deploy a _**Static website**_'
-						/>
+
 						<ImageEvent
 							date='09/05/2022'
 							text='My portfolio when I joined _**Uplift Code Camp**_'
@@ -152,7 +169,10 @@ export default function Project() {
 									This is made from static HTML CSS upon studying for 1 month in
 									Uplift Code Camp. I learn new things and develop.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/sam/' target='_blank'>
+								<UrlButton
+									href='https://trainerx12345.github.io/sam/'
+									target='_blank'
+								>
 									<FaEye size={20} /> Click to view the page
 								</UrlButton>
 								<UrlButton
@@ -164,7 +184,15 @@ export default function Project() {
 							</div>
 						</ImageEvent>
 						<TextEvent
-							date='08/30'
+							date='09/03/2022'
+							text='Learn to how to use _**Javascript.**_'
+						/>
+						<TextEvent
+							date='09/02/2022'
+							text='Learn to how to deploy a _**Static website**_'
+						/>
+						<TextEvent
+							date='08/30/2022'
 							text='_**Uplift Code Camp**_ has *started.*'
 						/>
 						<ImageEvent
@@ -179,10 +207,16 @@ export default function Project() {
 									A portfolio created based on my learning from college. It just
 									a plain HTML CSS for the design and creattion of this project.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/portfoliov0.1/' target='_blank'>
+								<UrlButton
+									href='https://trainerx12345.github.io/portfoliov0.1/'
+									target='_blank'
+								>
 									<FaEye size={20} /> Click View
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/portfoliov0.1' target='_blank'>
+								<UrlButton
+									href='https://github.com/trainerx12345/portfoliov0.1'
+									target='_blank'
+								>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
