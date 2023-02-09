@@ -51,10 +51,10 @@ export default function Project() {
 									As a student it can generate certificate and verification of
 									the certificate.
 								</h5>
-								<UrlButton href='https://find-my-love.vercel.app/'>
+								<UrlButton href='https://find-my-love.vercel.app/ ' target='_blank'>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/EMS/tree/main'>
+								<UrlButton href='https://github.com/trainerx12345/EMS/tree/main' target='_blank'>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -72,10 +72,10 @@ export default function Project() {
 									MERN stack application. In further development, a chat might
 									be implemented
 								</h5>
-								<UrlButton href='https://find-my-love.vercel.app/'>
+								<UrlButton href='https://find-my-love.vercel.app/' target='_blank'>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/findMyLove'>
+								<UrlButton href='https://github.com/trainerx12345/findMyLove' target='_blank'>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -98,10 +98,10 @@ export default function Project() {
 									This is an application created from static React website. It a
 									simple e-commerce for cake apps.
 								</h5>
-								<UrlButton href='https://sweetspot-89rynxxed-trainerx12345.vercel.app/'>
+								<UrlButton href='https://sweetspot-89rynxxed-trainerx12345.vercel.app/' target='_blank'>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/sweetspot'>
+								<UrlButton href='https://github.com/trainerx12345/sweetspot' target='_blank'>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -124,10 +124,10 @@ export default function Project() {
 									This is an application for created on Vanilla Javascript. It
 									is based on the game of Gabriele Cirulli 2048.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/2048'>
+								<UrlButton href='https://trainerx12345.github.io/2048' target='_blank'>
 									<FaEye size={20} /> Click here to play the game
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/2048'>
+								<UrlButton href='https://github.com/trainerx12345/2048' target='_blank'>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
@@ -141,7 +141,7 @@ export default function Project() {
 							text='Learn to how to deploy a _**Static website**_'
 						/>
 						<ImageEvent
-							date='09/012022'
+							date='09/05/2022'
 							text='My portfolio when I joined _**Uplift Code Camp**_'
 							src='https://raw.githubusercontent.com/trainerx12345/sam/main/portfoliov1.png'
 							alt='portfoliov0.1'
@@ -152,7 +152,7 @@ export default function Project() {
 									This is made from static HTML CSS upon studying for 1 month in
 									Uplift Code Camp. I learn new things and develop.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/sam/'>
+								<UrlButton href='https://trainerx12345.github.io/sam/' target='_blank'>
 									<FaEye size={20} /> Click to view the page
 								</UrlButton>
 								<UrlButton
@@ -168,7 +168,7 @@ export default function Project() {
 							text='_**Uplift Code Camp**_ has *started.*'
 						/>
 						<ImageEvent
-							date='08/152022'
+							date='08/15/2022'
 							text='My portfolio before joining _**Uplift Code Camp**_'
 							src='https://raw.githubusercontent.com/trainerx12345/portfoliov0.1/main/1stportfolio.png'
 							alt='portfoliov0.1'
@@ -179,11 +179,10 @@ export default function Project() {
 									A portfolio created based on my learning from college. It just
 									a plain HTML CSS for the design and creattion of this project.
 								</h5>
-								<UrlButton href='https://trainerx12345.github.io/portfoliov0.1/'>
-									<FaEye size={20} />
-									Click View
+								<UrlButton href='https://trainerx12345.github.io/portfoliov0.1/' target='_blank'>
+									<FaEye size={20} /> Click View
 								</UrlButton>
-								<UrlButton href='https://github.com/trainerx12345/portfoliov0.1'>
+								<UrlButton href='https://github.com/trainerx12345/portfoliov0.1' target='_blank'>
 									<FaGithub size={20} /> Click to view the code
 								</UrlButton>
 							</div>
