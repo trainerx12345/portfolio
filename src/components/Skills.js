@@ -20,8 +20,8 @@ export default function Skills() {
 			id='skill'
 			className='mx-auto container-fluid p-3'
 		>
-			<h1 className='display-3 pt-5  mt-5 text-center '>Skills</h1>
-			<Swiper
+			{/*	<h1 className='display-3 pt-5  mt-5 text-center '>Skills</h1>
+		 <Swiper
 				spaceBetween={30}
 				centeredSlides={true}
 				autoplay={{
@@ -113,7 +113,7 @@ export default function Skills() {
 						alt='Network Assistant'
 					/>
 				</SwiperSlide>
-			</Swiper>
+			</Swiper> */}
 		</div>
 	);
 }

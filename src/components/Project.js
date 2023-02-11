@@ -52,7 +52,7 @@ export default function Project() {
 									the certificate.
 								</h5>
 								<UrlButton
-									href='https://find-my-love.vercel.app/ '
+									href='https://ems-roan.vercel.app/ '
 									target='_blank'
 								>
 									<FaEye size={20} /> Click here to view the page
@@ -156,9 +156,12 @@ export default function Project() {
 								</UrlButton>
 							</div>
 						</ImageEvent>
-
-						<ImageEvent
+						<TextEvent
 							date='09/05/2022'
+							text='Learn to how to use _**Javascript.**_'
+						/>
+						<ImageEvent
+							date='09/03/2022'
 							text='My portfolio when I joined _**Uplift Code Camp**_'
 							src='https://raw.githubusercontent.com/trainerx12345/sam/main/portfoliov1.png'
 							alt='portfoliov0.1'
@@ -183,10 +186,7 @@ export default function Project() {
 								</UrlButton>
 							</div>
 						</ImageEvent>
-						<TextEvent
-							date='09/03/2022'
-							text='Learn to how to use _**Javascript.**_'
-						/>
+
 						<TextEvent
 							date='09/02/2022'
 							text='Learn to how to deploy a _**Static website**_'
