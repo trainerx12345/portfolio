@@ -51,7 +51,7 @@ export default function Project() {
 									As a student it can generate certificate and verification of
 									the certificate.
 								</h5>
-								<UrlButton href='https://find-my-love.vercel.app/'>
+								<UrlButton href='https://ems-4e55.onrender.com/'>
 									<FaEye size={20} /> Click here to view the page
 								</UrlButton>
 								<UrlButton href='https://github.com/trainerx12345/EMS/tree/main'>
